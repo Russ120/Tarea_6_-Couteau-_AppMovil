@@ -54,7 +54,7 @@ class DrawerContent extends StatelessWidget {
                 color: Color.fromARGB(255, 255, 255, 255),
               )),
           onTap: () {
-            Navigator.pushNamed(context, '/inicio');
+            Navigator.pushNamed(context, '/PredecirGenero');
           },
         ),
         Divider(),
@@ -141,64 +141,3 @@ class DrawerContent extends StatelessWidget {
     );
   }
 }
-
-////////////////////////////////////
-///
-///
-// ///
-// class DrawerContent extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return Drawer(
-//       child: ListView(
-//         padding: EdgeInsets.zero,
-//         children: <Widget>[
-//           Container(
-//             height: 300,
-//             color: Color.fromARGB(255, 237, 231, 231),
-//             child: CircleAvatar(
-//               radius: 200, // Tamaño del círculo
-//               backgroundImage:
-//                   AssetImage('assets/Foto.jpg'), // Ruta de la imagen
-//             ),
-//           ),
-//           Center(
-//             child: ListTile(
-//               title: Text(
-//                 "Rusbel Rodriguez Paulino",
-//                 textAlign: TextAlign.center, // Alinea el texto al centro
-//                 style: TextStyle(
-//                   fontSize: 18,
-//                   fontWeight: FontWeight.bold,
-//                   color: Color.fromARGB(255, 68, 52, 18),
-//                 ),
-//               ),
-//             ),
-//           ),
-//           ListTile(
-//             leading: Icon(Icons.home),
-//             title: Text("Presentación"),
-//             onTap: () {
-//               Navigator.pushNamed(context, '/presentation');
-//             },
-//           ),
-//           Divider(),
-//           ListTile(
-//               leading: Icon(Icons.calculate),
-//               title: Text("Calcular Tabla"),
-//               onTap: () {
-//                 Navigator.pushNamed(context, '/TablaMultiplicar');
-//               }),
-//           Divider(),
-//           ListTile(
-//               leading: Icon(Icons.multiline_chart),
-//               title: Text("Analisis de numeros"),
-//               onTap: () {
-//                 Navigator.pushNamed(context, '/analisisNumeros');
-//               }),
-//           Divider(),
-//         ],
-//       ),
-//     );
-//   }
-// }

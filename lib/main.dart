@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:tarea_6_couteau/pages/PredecirGenero.dart';
 
 import 'pages/AcercaDeContratame.dart';
 import 'pages/Inicio.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
           '/inicio': (context) => Inicio(),
           '/NavigationDrawer': (context) => DrawerContent(),
           '/Contratame': (context) => Contratame(),
+          '/PredecirGenero': (context) => PredecirGenero(),
         });
   }
 }
