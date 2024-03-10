@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:tarea_6_couteau/pages/PredecirGenero.dart';
 
 import 'pages/AcercaDeContratame.dart';
+import 'pages/DeterminarEdad.dart';
 import 'pages/Inicio.dart';
 import 'pages/NavigationDrawer.dart';
 
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
           '/NavigationDrawer': (context) => DrawerContent(),
           '/Contratame': (context) => Contratame(),
           '/PredecirGenero': (context) => PredecirGenero(),
+          '/VistaImagenNombre': (context) => DeterminarEdad(),
         });
   }
 }
