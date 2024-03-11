@@ -86,7 +86,7 @@ class DrawerContent extends StatelessWidget {
                 color: Color.fromARGB(255, 255, 255, 255),
               )),
           onTap: () {
-            Navigator.pushNamed(context, '/inicio');
+            Navigator.pushNamed(context, '/UniversidadesView');
           },
         ),
         Divider(),

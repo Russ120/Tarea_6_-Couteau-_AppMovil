@@ -6,6 +6,7 @@ import 'package:tarea_6_couteau/pages/PredecirGenero.dart';
 import 'pages/AcercaDeContratame.dart';
 import 'pages/DeterminarEdad.dart';
 import 'pages/Inicio.dart';
+import 'pages/MostrarUniversidades.dart';
 import 'pages/NavigationDrawer.dart';
 
 void main() => runApp(const MyApp());
@@ -27,6 +28,7 @@ class MyApp extends StatelessWidget {
           '/Contratame': (context) => Contratame(),
           '/PredecirGenero': (context) => PredecirGenero(),
           '/VistaImagenNombre': (context) => DeterminarEdad(),
+          '/UniversidadesView': (context) => UniversityListScreen(),
         });
   }
 }
