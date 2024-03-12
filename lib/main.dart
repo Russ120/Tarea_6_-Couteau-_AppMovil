@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:tarea_6_couteau/pages/PredecirGenero.dart';
 
 import 'pages/AcercaDeContratame.dart';
+import 'pages/Clima_page.dart';
 import 'pages/DeterminarEdad.dart';
 import 'pages/Inicio.dart';
 import 'pages/MostrarUniversidades.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           '/PredecirGenero': (context) => PredecirGenero(),
           '/VistaImagenNombre': (context) => DeterminarEdad(),
           '/UniversidadesView': (context) => UniversityListScreen(),
-          // '/MostrarClima': (context) => ClimaPage(),
+          '/MostrarClima': (context) => WeatherPage(),
           '/NewsPage': (context) => NewsPage(),
         });
   }
