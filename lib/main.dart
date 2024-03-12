@@ -8,6 +8,7 @@ import 'pages/DeterminarEdad.dart';
 import 'pages/Inicio.dart';
 import 'pages/MostrarUniversidades.dart';
 import 'pages/NavigationDrawer.dart';
+import 'pages/NoticiasWordpress.dart';
 
 void main() => runApp(const MyApp());
 
@@ -29,6 +30,8 @@ class MyApp extends StatelessWidget {
           '/PredecirGenero': (context) => PredecirGenero(),
           '/VistaImagenNombre': (context) => DeterminarEdad(),
           '/UniversidadesView': (context) => UniversityListScreen(),
+          // '/MostrarClima': (context) => ClimaPage(),
+          '/NewsPage': (context) => NewsPage(),
         });
   }
 }
